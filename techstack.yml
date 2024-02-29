@@ -1,0 +1,122 @@
+repo_name: Jeff-Bouchard/amneziawg-go
+report_id: 6ad67551ebcb48d15594911acac04454
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:53:01+00:00'
+requested_by: AlexanderGalkov
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go/blob/master/.github/workflows/build-if-tag.yml
+  detection_source: ".github/workflows/build-if-tag.yml"
+  last_updated_by: tiaga
+  last_updated_on: 2024-02-07 11:44:59.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go
+  detection_source: Repo Metadata
+- name: btree
+  description: Package btree implements in-memory B-Trees of arbitrary degree
+  package_url: https://pkg.go.dev/github.com/google/btree
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Jason A. Donenfeld
+  last_updated_on: 2022-08-29 16:04:27.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.19.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: albexk
+  last_updated_on: 2024-02-10 13:02:05.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.21.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Jason A. Donenfeld
+  last_updated_on: 2018-10-09 16:11:36.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.17.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/amneziawg-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Jason A. Donenfeld
+  last_updated_on: 2018-10-09 16:11:36.000000000 Z
